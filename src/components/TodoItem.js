@@ -49,13 +49,13 @@ function TodoItem({todo})
 				<div className="col m-3 bg-dark   hero-image-empty">
 				<div className="p-2 text-center ">
 				<strong> Parking Slot No. #{todo.id}</strong></div>
-				<label className="text-center"><strong>Enter Your name</strong></label>
+				<label className="text-center"><strong>Enter Driver name</strong></label>
 				<input 
 				type="text" 
 				value={name}
 				onChange={(e)=>setName(e.target.value)}
 				className="col form-control"/>
-				<label className="text-center" ><strong>Enter phone number</strong></label>
+				<label className="text-center" ><strong>Enter Vehicle number</strong></label>
 				<input
 				 type="number"  
 				 value={phone}

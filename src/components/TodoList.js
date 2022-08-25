@@ -12,7 +12,7 @@ function TodoList()
 
 		<TodoInput/>
 		<hr/>
-			<h1 className="text-center">Booked Slots</h1>
+			<h1 className="text-center">Booked Slots in Garage</h1>
 
 		<hr/>
 		

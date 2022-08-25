@@ -24,14 +24,14 @@ function TodoInput()
 				value={id}
 				onChange={(e)=>setId(e.target.value)}
 				className="col form-control"/>
-				<label>Enter Your name</label>
+				<label>Enter Driver name</label>
 				<input 
 				type="text" 
 				value={name}
 				onChange={(e)=>setName(e.target.value)}
 				className="col form-control" />
 				{name?null:<div className="text-danger">Name is required</div>}
-				<label>Enter phone number</label>
+				<label>Enter Vehicle number</label>
 				<input
 				 type="number"  
 				 value={phone}
